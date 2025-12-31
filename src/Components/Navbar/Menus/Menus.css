@@ -1,0 +1,84 @@
+.mega-menu-content {
+    display: flex;
+    padding: 20px 40px;
+    background: white;
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    justify-content: space-between;
+}
+
+.menu-column {
+    display: flex;
+    flex-direction: column;
+    min-width: 160px;
+}
+
+.menu-column h4 {
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.menu-column a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.menu-column a:hover {
+    color: #000;
+    font-weight: 600;
+}
+
+.specials-column {
+    border-left: 1px solid #eee;
+    padding-left: 20px;
+}
+
+.special-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.special-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.special-item span {
+    font-size: 13px;
+    color: #333;
+    font-weight: 500;
+}
+
+.banner-column {
+    align-items: center;
+}
+
+.menu-banner {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.shop-now-btn {
+    padding: 8px 16px;
+    background: white;
+    border: 1px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+}

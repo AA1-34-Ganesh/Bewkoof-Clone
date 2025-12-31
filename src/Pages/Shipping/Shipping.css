@@ -1,0 +1,44 @@
+.shipping-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.shipping-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.address-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.address-form input,
+.address-form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.address-form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.save-address-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #42a2a2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+}

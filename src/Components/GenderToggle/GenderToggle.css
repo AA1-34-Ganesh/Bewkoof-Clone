@@ -1,0 +1,38 @@
+.gender-toggle-container {
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    padding: 2px;
+    width: fit-content;
+    margin: 10px 0;
+    border: 1px solid #eee;
+}
+
+.toggle-option {
+    padding: 8px 25px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 25px;
+    color: #555;
+    transition: all 0.3s ease;
+}
+
+.toggle-option.active {
+    background-color: #fdd835;
+    color: #333;
+}
+
+@media (min-width: 769px) {
+    .gender-toggle-container {
+        display: none;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .gender-toggle-container {
+        display: flex;
+    }
+}
